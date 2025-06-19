@@ -54,8 +54,8 @@ function scratch(className){
     show(className);
 }
 
-registerShortcut("scratch1", "scratch1", "Alt+Q", () => {scratch("st-256color");});
-registerShortcut("scratch2", "scratch2", "Alt+W", () => {scratch("whatsapp");});
-registerShortcut("scratch2", "scratch2", "Alt+Shift+W", () => {scratch("discord");});
-registerShortcut("scratch3", "scratch3", "Alt+E", () => {scratch("org.kde.dolphin");});
-registerShortcut("scratch4", "scratch4", "Alt+S", () => {scratch("Slack");});
+registerShortcut("Scratchpad 1", "Scratch - Quick", "Alt+Q", () => {scratch("st-256color");});
+registerShortcut("Scratchpad 2", "Scratch - Whatsapp", "Alt+W", () => {scratch("whatsapp");});
+registerShortcut("Scratchpad 3", "Scratch - Dolphin", "Alt+E", () => {scratch("org.kde.dolphin");});
+registerShortcut("Scratchpad 4", "Scratch - Slack", "Alt+S", () => {scratch("Slack");});
+registerShortcut("Scratchpad 5", "Scratch - Discord", "Alt+D", () => {scratch("discord");});
