@@ -1,0 +1,21 @@
+{
+    "KPlugin": {
+        "Name": "KDE Scratchpad",
+        "Description": "A Scratchpad for KDE",
+        "Icon": "preferences-system-windows",
+        
+        "Authors": [
+            {
+                "Email": "kenoiobi@gmail.com",
+                "Name": "Kayon Jaime"
+            }
+        ],
+        "Id": "kde-scratchpad",
+        "Version": "1.0",
+        "License": "GPLv3",
+        "Website": "https://github.com/kenoiobi/kde-scratchpad"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPackageStructure": "KWin/Script"
+}

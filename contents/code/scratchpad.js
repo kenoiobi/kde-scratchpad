@@ -48,8 +48,14 @@ function scratch(className){
 
     if(workspace.activeWindow.resourceClass == className){
         hide(className);
-    } else show(className);
+        return;
+    }
+
+    show(className);
 }
 
-registerShortcut("scratch1", "scratch1", "Alt+W", () => {scratch("org.kde.falkon")});
-print(workspace.desktops);
+registerShortcut("scratch1", "scratch1", "Alt+Q", () => {scratch("st-256color");});
+registerShortcut("scratch2", "scratch2", "Alt+W", () => {scratch("whatsapp");});
+registerShortcut("scratch2", "scratch2", "Alt+Shift+W", () => {scratch("discord");});
+registerShortcut("scratch3", "scratch3", "Alt+E", () => {scratch("org.kde.dolphin");});
+registerShortcut("scratch4", "scratch4", "Alt+S", () => {scratch("Slack");});
