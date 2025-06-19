@@ -1,5 +1,8 @@
-# kde-scratchpad
-A scratchpad kwin script
+# KDE Scratchpad
+
+This plugin allows for a functionality similar to i3's scratchpads
+
+## Installation
 
 First, clone it
 
