@@ -54,6 +54,8 @@ function scratch(className){
     show(className);
 }
 
+// First string is for kglobalconfigrc, second is for shortcuts config menu
+
 registerShortcut("Scratchpad 1", "Scratch - Quick", "Alt+Q", () => {scratch("st-256color");});
 registerShortcut("Scratchpad 2", "Scratch - Whatsapp", "Alt+W", () => {scratch("whatsapp");});
 registerShortcut("Scratchpad 3", "Scratch - Dolphin", "Alt+E", () => {scratch("org.kde.dolphin");});
