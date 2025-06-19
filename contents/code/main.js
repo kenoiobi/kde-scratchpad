@@ -21,11 +21,11 @@ function scratch(className){
 
                     // workspace.raiseWindow(window)
                     workspace.activeWindow = window;
-                    workspace.activeWindow.frameGeometry.width = winWidth;
-                    workspace.activeWindow.frameGeometry.height = winHeight;
+                    // workspace.activeWindow.frameGeometry.width = winWidth;
+                    // workspace.activeWindow.frameGeometry.height = winHeight;
 
-                    workspace.activeWindow.frameGeometry.x = (scrWidth - winWidth) / 2;
-                    workspace.activeWindow.frameGeometry.y = (scrHeight - winHeight) / 2 - 100; // 100 is the taskbar
+                    // workspace.activeWindow.frameGeometry.x = (scrWidth - winWidth) / 2;
+                    // workspace.activeWindow.frameGeometry.y = (scrHeight - winHeight) / 2 - 100; // 100 is the taskbar
 
                 }
             }
