@@ -1,7 +1,7 @@
 function scratch(className){
 
     winWidth = 1440;
-    winHeight = 720;
+    winHeight = 900;
     scrWidth = 1920;
     scrHeight = 1080;
 
@@ -19,21 +19,19 @@ function scratch(className){
                     desktop = workspace.currentDesktop;
                     window.desktops[0] = desktop;
 
-                    // workspace.raiseWindow(window)
+                    window.frameGeometry.width = winWidth;
+                    window.frameGeometry.height = winHeight;
+
+                    window.frameGeometry.x = (scrWidth - winWidth) / 2;
+                    window.frameGeometry.y = (scrHeight - winHeight) / 2 - 15;// 100 is the taskbar
+
                     workspace.activeWindow = window;
-                    // workspace.activeWindow.frameGeometry.width = winWidth;
-                    // workspace.activeWindow.frameGeometry.height = winHeight;
-
-                    // workspace.activeWindow.frameGeometry.x = (scrWidth - winWidth) / 2;
-                    // workspace.activeWindow.frameGeometry.y = (scrHeight - winHeight) / 2 - 100; // 100 is the taskbar
-
                 }
             }
         }
     }
 
     function hide(className){
-        print("lol");
         for(var i = 0; i < workspace.stackingOrder.length; i++){
             window = workspace.stackingOrder[i];
 
