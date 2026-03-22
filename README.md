@@ -7,7 +7,7 @@ This plugin allows for a functionality similar to i3's scratchpads
 First, clone it
 
 ```
-git clone https://github.com/kde-scratchpad
+git clone https://github.com/kenoiobi/kde-scratchpad.git
 cd kde-scratchpad
 ```
 
